@@ -74,7 +74,12 @@ interface SelectListProps  {
     /**
     * set to false if you dont want to use search functionality
     */
-    search?: boolean
+    search?: boolean,
+
+    /**
+    * set to false if you dont want to use search functionality
+    */
+     searchPlaceholder?: string,
 
     /**
     * Trigger an action when option is selected
@@ -97,6 +102,7 @@ const SelectList: React.FC<SelectListProps> = ({
         searchicon = false,
         arrowicon = false,
         search = true,
+        searchPlaceholder = "search",
         onSelect = () => {},
     }) => {
 
@@ -176,7 +182,7 @@ const SelectList: React.FC<SelectListProps> = ({
                             }
                             
                             <TextInput 
-                                placeholder='search'
+                                placeholder={searchPlaceholder}
                                 onChangeText={(val) => {
                                     let result =  data.filter((item) => {
                                         val.toLowerCase();

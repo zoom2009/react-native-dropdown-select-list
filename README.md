@@ -88,6 +88,7 @@ For Live `Demo` [(Expo Snack)](https://snack.expo.dev/@danish1658/react-native-d
 | data| array or array[object]| Data which will be iterated as options of select list
 | setSelected| Function | For Setting the option value which will be stored in your local state
 | searchicon| JSX Element | Pass any JSX to this prop like Text, Image or Icon to show instead of search icon
+| searchPlaceholder| String | Custom placeholder text for search TextInput
 | arrowicon| JSX Element | Pass any JSX to this prop like Text, Image or Icon to show instead of chevron icon
 
 

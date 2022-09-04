@@ -88,8 +88,9 @@ For Live `Demo` [(Expo Snack)](https://snack.expo.dev/@danish1658/react-native-d
 | data| array or array[object]| Data which will be iterated as options of select list
 | setSelected| Function | For Setting the option value which will be stored in your local state
 | searchicon| JSX Element | Pass any JSX to this prop like Text, Image or Icon to show instead of search icon
-| searchPlaceholder| String | Custom placeholder text for search TextInput
 | arrowicon| JSX Element | Pass any JSX to this prop like Text, Image or Icon to show instead of chevron icon
+| searchPlaceholder| String | Custom placeholder text for search TextInput
+| defaultOption| Object | Pass default selected option in key value pair
 
 
 # 😎 Advanced Usage
@@ -116,6 +117,7 @@ const App = () => {
       searchicon={<FontAwesome name="search" size={12} color={'black'} />} 
       search={false} 
       boxStyles={{borderRadius:0}} //override default styles
+      defaultOption={{ key:'1', value:'Jammu & Kashmir' }}   //default selected option
     />
   )
 

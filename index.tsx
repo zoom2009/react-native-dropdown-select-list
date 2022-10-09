@@ -197,8 +197,16 @@ const SelectList: React.FC<SelectListProps> = ({
                                     });
                                     setFilteredData(result)
                                 }}
-                                style={[{padding:0,height:20,width:'80%'},inputStyles]}
+                                style={[{padding:0,height:20,width:'87%'},inputStyles]}
                             />
+                                <TouchableOpacity onPress={() => slideup()} >
+                                    <Image 
+                                        source={require('./assets/images/close.png')}
+                                        resizeMode='contain'
+                                        style={{width:15,height:15,marginRight:7}}
+                                    />
+                                </TouchableOpacity>
+                                
                            
                         </View>
                         

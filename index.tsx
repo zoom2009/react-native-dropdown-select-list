@@ -104,6 +104,7 @@ const SelectList: React.FC<SelectListProps> = ({
         search = true,
         searchPlaceholder = "search",
         onSelect = () => {},
+        notFoundText = "No data found",
     }) => {
 
     const oldOption = React.useRef(null)
@@ -261,7 +262,7 @@ const SelectList: React.FC<SelectListProps> = ({
                                     setTimeout(() => setFilteredData(data), 800)
                                     
                                 }}>
-                                    <Text style={dropdownTextStyles}> No data found</Text>
+                                    <Text style={dropdownTextStyles}>{notFoundText}</Text>
                                 </TouchableOpacity>
                             }
                             

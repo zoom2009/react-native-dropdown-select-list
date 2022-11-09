@@ -93,7 +93,7 @@ import { MultipleSelectList } from 'react-native-dropdown-select-list'
 
 const App = () => {
 
-  const [selected, setSelected] = React.useState("");
+  const [selected, setSelected] = React.useState([]);
   
   const data = [
       {key:'1', value:'Mobiles', disabled:true},

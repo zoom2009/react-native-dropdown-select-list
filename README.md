@@ -11,25 +11,9 @@ React Native Select List Equivalent to Html's Select "
 
 <p align="center" >
   <div style="display:flex;justify-content:space-evenly;align-items:center">
-    <p style="display:flex;flex-direction:column;align-items:center;">
-        <img
-          src="https://i.imgur.com/EAT81Nz.gif"
-          title="Multiple Select List Demo"
-          style="width:350px;border-radius:15px"
-        >
-        <em>Multiple Select List Demo.</em>
-    </p>
-    <p style="display:flex;flex-direction:column;align-items:center;">
-        <img
-          src="https://i.imgur.com/qmHreFH.gif"
-          title="Select List Demo"
-          style="width:370px;border-radius:15px"
-        >
-        <em>Select List Demo.</em>
-    </p>
-    
-    
-     
+Multiple Select List            |  Select List
+:-------------------------:|:-------------------------:
+![](https://i.imgur.com/EAT81Nz.gif)  |  ![](https://i.imgur.com/qmHreFH.gif)
   </div>
   <br>
   

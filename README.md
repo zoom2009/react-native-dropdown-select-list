@@ -11,9 +11,11 @@ React Native Select List Equivalent to Html's Select "
 
 <p align="center" >
   <div style="display:flex;justify-content:space-evenly;align-items:center">
+    
 Multiple Select List            |  Select List
 :-------------------------:|:-------------------------:
 ![](https://i.imgur.com/EAT81Nz.gif)  |  ![](https://i.imgur.com/qmHreFH.gif)
+    
   </div>
   <br>
   

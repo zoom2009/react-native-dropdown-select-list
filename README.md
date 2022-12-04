@@ -1,14 +1,15 @@
-<div style="display:flex;justify-content:space-between;margin-top:25px">
+<div align="center">
 
-![NPM LIFETIME DOWNLOADS](https://img.shields.io/npm/dt/react-native-dropdown-select-list?style=for-the-badge)
+<a href="https://www.npmjs.com/package/react-native-dropdown-select-list">![NPM LIFETIME DOWNLOADS](https://img.shields.io/npm/dt/react-native-dropdown-select-list?style=for-the-badge)</a>
 
-![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/dw/react-native-dropdown-select-list?style=for-the-badge)
+<a href="https://www.npmjs.com/package/react-native-dropdown-select-list">![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/dw/react-native-dropdown-select-list?style=for-the-badge)</a>
 
-![NPM WEEKLY DOWNLOADS](https://img.shields.io/github/stars/danish1658/react-native-dropdown-select-list?label=Give%20Us%20A%20Star&style=for-the-badge)
+<a href="https://github.com/danish1658/react-native-dropdown-select-list">![NPM WEEKLY DOWNLOADS](https://img.shields.io/github/stars/danish1658/react-native-dropdown-select-list?label=Give%20Us%20A%20Star&style=for-the-badge)</a>
 
-![NPM WEEKLY DOWNLOADS](https://img.shields.io/youtube/channel/views/UCEbbpzmnbRiNVhJ3ElABbMQ?label=YOUTUBE%20VIEWS&style=for-the-badge)
+<a href="https://www.youtube.com/channel/UCEbbpzmnbRiNVhJ3ElABbMQ">![NPM WEEKLY DOWNLOADS](https://img.shields.io/youtube/channel/views/UCEbbpzmnbRiNVhJ3ElABbMQ?label=YOUTUBE%20VIEWS&style=for-the-badge)</a>
 
-![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/v/react-native-dropdown-select-list?style=for-the-badge)
+<a href="https://www.npmjs.com/package/react-native-dropdown-select-list">![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/v/react-native-dropdown-select-list?style=for-the-badge)</a>
+
 </div>
 <br>
 <h1 align="center">

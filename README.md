@@ -1,4 +1,4 @@
-<p style="display:flex;justify-content:space-between;align-items:center">
+<p>
 
 <a href="https://www.npmjs.com/package/react-native-dropdown-select-list">![NPM LIFETIME DOWNLOADS](https://img.shields.io/npm/dt/react-native-dropdown-select-list?style=for-the-badge)</a>
 <a href="https://www.npmjs.com/package/react-native-dropdown-select-list">![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/dw/react-native-dropdown-select-list?style=for-the-badge)</a>

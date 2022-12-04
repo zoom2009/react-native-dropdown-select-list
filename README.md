@@ -1,4 +1,4 @@
-<div style="display:flex;justify-content:space-between;align-items:center">
+<p style="display:flex;justify-content:space-between;align-items:center">
 
 <a href="https://www.npmjs.com/package/react-native-dropdown-select-list">![NPM LIFETIME DOWNLOADS](https://img.shields.io/npm/dt/react-native-dropdown-select-list?style=for-the-badge)</a>
 <a href="https://www.npmjs.com/package/react-native-dropdown-select-list">![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/dw/react-native-dropdown-select-list?style=for-the-badge)</a>
@@ -6,7 +6,8 @@
 <a href="https://www.youtube.com/channel/UCEbbpzmnbRiNVhJ3ElABbMQ">![NPM WEEKLY DOWNLOADS](https://img.shields.io/youtube/channel/views/UCEbbpzmnbRiNVhJ3ElABbMQ?label=YOUTUBE%20VIEWS&style=for-the-badge)</a>
 <a href="https://www.npmjs.com/package/react-native-dropdown-select-list">![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/v/react-native-dropdown-select-list?style=for-the-badge)</a>
 
-</div>
+</p>
+
 <br>
 <h1 align="center">
   ⭐ React Native Dropdown Select List </h1>

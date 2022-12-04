@@ -1,4 +1,5 @@
 <div style="display:flex;justify-content:space-between;margin-top:25px">
+
 ![NPM LIFETIME DOWNLOADS](https://img.shields.io/npm/dt/react-native-dropdown-select-list?style=for-the-badge)
 
 ![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/dw/react-native-dropdown-select-list?style=for-the-badge)

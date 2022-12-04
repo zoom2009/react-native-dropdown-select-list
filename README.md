@@ -1,4 +1,14 @@
+<div style="display:flex;justify-content:space-between;margin-top:25px">
+![NPM LIFETIME DOWNLOADS](https://img.shields.io/npm/dt/react-native-dropdown-select-list?style=for-the-badge)
 
+![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/dw/react-native-dropdown-select-list?style=for-the-badge)
+
+![NPM WEEKLY DOWNLOADS](https://img.shields.io/github/stars/danish1658/react-native-dropdown-select-list?label=Give%20Us%20A%20Star&style=for-the-badge)
+
+![NPM WEEKLY DOWNLOADS](https://img.shields.io/youtube/channel/views/UCEbbpzmnbRiNVhJ3ElABbMQ?label=YOUTUBE%20VIEWS&style=for-the-badge)
+
+![NPM WEEKLY DOWNLOADS](https://img.shields.io/npm/v/react-native-dropdown-select-list?style=for-the-badge)
+</div>
 <br>
 <h1 align="center">
   ⭐ React Native Dropdown Select List </h1>

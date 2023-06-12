@@ -42,7 +42,9 @@ const MultipleSelectList: React.FC<MultipleSelectListProps> = ({
         badgeTextStyles,
         checkBoxStyles,
         save = 'key',
-        dropdownShown = false
+        dropdownShown = false,
+        onFocus,
+        placeholderTextColor,
     }) => {
 
     const oldOption = React.useRef(null)
@@ -129,7 +131,9 @@ const MultipleSelectList: React.FC<MultipleSelectListProps> = ({
                                 searchicon
                             }
                             
-                            <TextInput 
+                            <TextInput
+                                onFocus={onFocus}
+                                placeholderTextColor={placeholderColor || '#555'}
                                 placeholder={searchPlaceholder}
                                 onChangeText={(val) => {
                                     let result =  data.filter((item: L1Keys) => {

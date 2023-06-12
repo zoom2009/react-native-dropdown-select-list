@@ -58,7 +58,7 @@ const MultipleSelectList: React.FC<MultipleSelectListProps> = ({
 
     const slidedown = () => {
         setDropdown(true)
-        
+        onFocus && onFocus(true)
         Animated.timing(animatedvalue,{
             toValue:height,
             duration:500,
@@ -73,7 +73,10 @@ const MultipleSelectList: React.FC<MultipleSelectListProps> = ({
             duration:500,
             useNativeDriver:false,
             
-        }).start(() => setDropdown(false))
+        }).start(() => {
+            onFocus && onFocus(false)
+            setDropdown(false)
+        })
     }
 
     React.useEffect( () => {

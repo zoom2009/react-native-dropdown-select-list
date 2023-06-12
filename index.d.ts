@@ -116,7 +116,7 @@ export interface SelectListProps  {
     /**
     * on focus event
     */
-    onFocus?: () => void,
+    onFocus?: (isFocus: boolean) => void,
 
     /**
     * color of placeholder
@@ -271,7 +271,7 @@ export interface MultipleSelectListProps  {
     /**
     * on focus event
     */
-    onFocus?: () => void,
+    onFocus?: (isFocus: boolean) => void,
 
     /**
     * color of placeholder

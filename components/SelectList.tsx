@@ -52,11 +52,11 @@ const SelectList: React.FC<SelectListProps> =  ({
 
     const slidedown = () => {
         setDropdown(true)
+        onFocus && onFocus(true)
         Animated.timing(animatedvalue,{
             toValue:height,
             duration:500,
             useNativeDriver:false,
-            
         }).start()
     }
     const slideup = () => {
@@ -66,7 +66,10 @@ const SelectList: React.FC<SelectListProps> =  ({
             duration:500,
             useNativeDriver:false,
             
-        }).start(() => setDropdown(false))
+        }).start(() => {
+            setDropdown(false)
+            onFocus && onFocus(false)
+        })
     }
 
     React.useEffect( () => {
@@ -138,7 +141,6 @@ const SelectList: React.FC<SelectListProps> =  ({
                             }
                             
                             <TextInput
-                                onFocus={onFocus}
                                 placeholder={searchPlaceholder}
                                 placeholderTextColor={placeholderColor || '#555'}
                                 onChangeText={(val) => {

@@ -39,6 +39,7 @@ const SelectList: React.FC<SelectListProps> =  ({
         fontFamily,
         onFocus,
         placeholderColor,
+        onSearchEffect,
     }) => {
 
     const oldOption = React.useRef(null)
@@ -144,6 +145,7 @@ const SelectList: React.FC<SelectListProps> =  ({
                                 placeholder={searchPlaceholder}
                                 placeholderTextColor={placeholderColor || '#555'}
                                 onChangeText={(val) => {
+                                    onSearchEffect && onSearchEffect(val)
                                     let result =  data.filter((item: L1Keys) => {
                                         val.toLowerCase();
                                         let row = item.value.toLowerCase()

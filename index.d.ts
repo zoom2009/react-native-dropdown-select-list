@@ -122,6 +122,11 @@ export interface SelectListProps  {
     * color of placeholder
     */
     placeholderColor?: string
+    
+    /**
+    * search event
+    */
+    onSearchEffect?: (text: string) => void,
 }
 
 
